@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    color: #2c2c2c;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../assets/fonts/Montserrat-Regular.woff") format("woff");
+}
+
+.fontBody {
+    font-family: "Montserrat-Regular";
+}
+
+
+.logoWrap {
+    width: 200px;
+}
+
+.logoImg {
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "expressjs-by-docs",
+  "version": "1.0.0",
+  "description": "learn expresjs for work with statuc files. learn aphrodite jss lib",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "js":   "browserify public/js/main.js -o public/js/bundle.js",
+    "jsfs": "browserify -t brfs public/js/main.js > public/js/bundle.js"
+  },
+  "keywords": [
+    "aphroditejss",
+    "reactjs",
+    "expressjs"
+  ],
+  "author": "alexandr gorchakov",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "brfs": "^1.6.1",
+    "express": "^4.16.3",
+    "hogan.js": "^3.0.2"
+  }
+}
